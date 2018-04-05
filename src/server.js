@@ -1,7 +1,8 @@
 import express from "express";
 import graphqlHTTP from "express-graphql";
 import {root, schema} from "./mySchema";
-
+// gulp dev
+// npm run build
 const app = express();
 
 app.use('/graphql', graphqlHTTP({
